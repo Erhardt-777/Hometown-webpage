@@ -19,12 +19,16 @@ body{
 
 /* === Utility CSS === */
 
-.corner-radius-15{
+.corner-radius{
     border-radius: 15px;
 }
 
 .text-shadow{
     text-shadow: 0px 0px 5px black;
+}
+
+.text-italic{
+    font-style: italic;
 }
 
 
@@ -57,6 +61,7 @@ body{
     padding: 0.7rem;
     max-width: 780px;
     font-size: 2rem;
+    font-weight: 300;
     background-color: rgb(84 60 39 / 80%);
 }
 
@@ -86,6 +91,7 @@ body{
 
 .history-p-style{
     font-size: 24px;
+    font-weight: 300;
     text-align: left;
 }
 
@@ -129,12 +135,13 @@ body{
 
 .activities-card-style{
     width: 360px;
-    box-shadow: 0 0 30px rgb(255 255 255 / 30%);
+    box-shadow: 0 0 10px rgb(255 255 255);
     background-color: rgb(255 255 255 / 21%);
 }
 
 .activities-card-p{
     font-size: 1rem;
+    font-weight: 300;
     padding: 10px 20px;
     text-align: center;
     letter-spacing: 0.1rem;
@@ -150,6 +157,59 @@ body{
 }
 
 /* === Guide Section === */
-.guide-container{
+.guide-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F455B;
+    padding: 5rem 3rem 6rem;
+}
+
+.guide-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 30px;
+    padding: 1.5rem;
+    background-color: #543C27;
+    box-shadow: 0 0 10px rgb(255 255 255);
+}
+
+.guide-profile-img{
+    margin: 36px 40px;
+    width: 331px;
+    height: 600px;
+    box-shadow: 10px 10px 15px black;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/biely-photo.jpeg")
+}
+
+.guide-profile-img:hover{
+    background-image: url(../images/biely-photo-hover.jpeg);
+}
+
+.social-icons{
+    margin: 5px;
+    width: 25px;
+}
+
+.guide-content-wrapper{
+    margin: auto;
+    width: 450px;
+    text-align: left;
+}
+
+.guide-content-wrapper h3{
+    font-size: 2rem;
+}
+
+.guide-content-wrapper p{
+    font-weight: 300;
+    font-size: 1.5rem;
+
+}
+
+.guide-content-wrapper h4{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
 }
