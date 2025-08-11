@@ -148,3 +148,8 @@ body{
     margin: 0;
     font-size: 2rem;
 }
+
+/* === Guide Section === */
+.guide-container{
+    background-color: #1F455B;
+}
