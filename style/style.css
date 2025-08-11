@@ -65,6 +65,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #1F455B;
+    padding: 5rem;
 }
 
 .history-heading-2{
@@ -78,7 +79,7 @@ body{
 .history-p-container{
     text-align: left;
     width: 680px;
-    padding-top: 1rem;
+    padding: 1rem;
     letter-spacing: 0.2rem;
     padding-left: 1rem;
 }
@@ -86,4 +87,64 @@ body{
 .history-p-style{
     font-size: 24px;
     text-align: left;
+}
+
+/* === Activities Section === */
+.activities-section{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    background-color: #3A4249;
+    gap: 4rem;
+    padding: 5rem 3rem 6rem;
+}
+
+.activities-img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #83B7D5;
+}
+
+.activities-img-whale:hover{
+    content: url("../images/whale-watching-hover.jpg") / "Whale's tail breaching";
+}
+
+.activities-img-skywalk:hover{
+    content: url("../images/malahat-skywalk-hover.jpg") / "Top view of the Skywalk with overlooking scenery";
+}
+
+.activities-img-garden:hover{
+    content: url("../images/butchart-garden-hover.jpg") / "Beautiful garden with a fountain at the center view.";
+}
+
+.activities-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.activities-card-style{
+    width: 360px;
+    box-shadow: 0 16px 30px rgb(255 255 255 / 30%);
+    background-color: rgb(255 255 255 / 21%);
+}
+
+.activities-card-p{
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.activities-card-style h3{
+    font-size: 1.5rem;
+}
+
+.activities-heading-2{
+    margin: 0;
+    font-size: 2rem;
 }
